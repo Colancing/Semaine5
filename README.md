@@ -1,2 +1,2 @@
 # Semaine5  
-# Mise ne forme plus poussé du Cv.
+# Mise en forme plus poussé du Cv.

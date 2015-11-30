@@ -1,10 +1,17 @@
 body {
+    width:100%;
     background-color: white;
     color:black;
-    border:50px #2e2e2e solid;
     font-size:10px;
     font-family: Avenir sans-serif;
+    margin:0 auto;
 }
+container {
+    max-width:960px;
+    padding:10px;
+    margin:15px;
+}
+
 p {
     margin:0;
 }
@@ -12,15 +19,13 @@ a {
     text-decoration: none;
     color: #68b7a8;
 }
-header {
+.header {
     border-top: 8px solid #ddf2ab;
     border-bottom: 1px solid lightseagreen ;
     color: white;
     background-color: #efefef;
-    padding:30px;
-    margin-bottom:30px;
-    height:120px;
 }
+
 .name {
     float:left;
     width:70%;
@@ -41,11 +46,16 @@ address {
     color:black;
     line-height:16px;
 }
-
 main {
     clear:both;
-    margin:50px;
-    padding-left: 30px;
+    margin: 0 auto;
+    text-align:justify;
+}
+.column {
+    display:inline-block;
+    width:30%;
+    vertical-align:top;
+     padding:10px;
 }
 h1 {
     font-size: 24px;
@@ -57,56 +67,31 @@ h2 {
     font-size: 20px;
     font-family: Avenir sans-serif;
 }
-/*section {*/
-    /*margin-bottom : 20px;*/
-    /*height: 100%;*/
-/*}*/
 
 h3 {
-    display: inline-block;
-    width: 25%;
-    margin-top: 0;
+
     color:darkslategray;
-    float:left;
     font-family:Georgia Didot sans-serif;
     font-size:18px;
 }
 ul {
-    margin-top:0;
-    margin-bottom:20px;
-    float:left;
-    width:60%;
+     margin:0;
+    padding:0;
 }
 li {
-    display: block;
-    list-style-type: none;
-    line-height:32px;
-    width:100%;
-}
-.year{
-    display: inline-block;
-    width : 20%;
-    margin:0;
-}
-.year p{
-    display: inline;
-    padding:5px;
-    border-radius: 5%;
-    background-color: lightgrey;
-    font-family:Avenir sans-serif;
-}
-.describe {
-    display: inline-block;
-    width:75%;
-    margin-bottom:20px;
-    text-align: justify;
-}
-.separate {
-    height:20px;
-    clear:both;
-    border-top:1px solid lightgrey;
+    list-style-type:none;
+
 }
 
 footer p{
-    text-align: center;
+    text-align: left;
+}
+
+iframe{
+    width: 50%;
+    float:left;
+     margin-right:20px;
+}
+.clear {
+    clear:both;
 }
