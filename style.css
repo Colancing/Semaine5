@@ -1,0 +1,112 @@
+body {
+    background-color: white;
+    color:black;
+    border:50px #2e2e2e solid;
+    font-size:10px;
+    font-family: Avenir sans-serif;
+}
+p {
+    margin:0;
+}
+a {
+    text-decoration: none;
+    color: #68b7a8;
+}
+header {
+    border-top: 8px solid #ddf2ab;
+    border-bottom: 1px solid lightseagreen ;
+    color: white;
+    background-color: #efefef;
+    padding:30px;
+    margin-bottom:30px;
+    height:120px;
+}
+.name {
+    float:left;
+    width:70%;
+    height:100%;
+}
+.profil {
+    float:left;
+    padding:5px;
+    border:lightseagreen 1px solid;
+    margin-right:20px;
+    background-color: white;
+}
+address {
+    margin-top:20px;
+    float:left;
+    width:20%;
+    height:100%;
+    color:black;
+    line-height:16px;
+}
+
+main {
+    clear:both;
+    margin:50px;
+    padding-left: 30px;
+}
+h1 {
+    font-size: 24px;
+    color:darkslategray;
+    font-family:Avenir sans-serif;
+}
+h2 {
+    color:darkslategray;
+    font-size: 20px;
+    font-family: Avenir sans-serif;
+}
+/*section {*/
+    /*margin-bottom : 20px;*/
+    /*height: 100%;*/
+/*}*/
+
+h3 {
+    display: inline-block;
+    width: 25%;
+    margin-top: 0;
+    color:darkslategray;
+    float:left;
+    font-family:Georgia Didot sans-serif;
+    font-size:18px;
+}
+ul {
+    margin-top:0;
+    margin-bottom:20px;
+    float:left;
+    width:60%;
+}
+li {
+    display: block;
+    list-style-type: none;
+    line-height:32px;
+    width:100%;
+}
+.year{
+    display: inline-block;
+    width : 20%;
+    margin:0;
+}
+.year p{
+    display: inline;
+    padding:5px;
+    border-radius: 5%;
+    background-color: lightgrey;
+    font-family:Avenir sans-serif;
+}
+.describe {
+    display: inline-block;
+    width:75%;
+    margin-bottom:20px;
+    text-align: justify;
+}
+.separate {
+    height:20px;
+    clear:both;
+    border-top:1px solid lightgrey;
+}
+
+footer p{
+    text-align: center;
+}
